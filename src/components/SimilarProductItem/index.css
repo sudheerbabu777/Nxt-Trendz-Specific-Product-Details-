@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.image-url {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+}
+@media screen and (max-width: 768px) {
+  .image-url {
+    width: 280px;
+    height: 250px;
+  }
+}
+
+.item-container {
+  width: 155px;
+  list-style-type: none;
+  margin: 30px;
+}
+@media screen and (max-width: 768px) {
+  .item-container {
+    width: 290px;
+    margin-bottom: 30px;
+  }
+}
+
+.similar-title {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.similar-price {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.style {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rating-container {
+  padding: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 4px;
+  height: 30px;
+}
+
+.rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.star {
+  width: 15px;
+  height: 15px;
+}
